@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+header, nav, main {
+  padding: 16px;
+}
+nav a {
+  margin-right: 12px;
+}
