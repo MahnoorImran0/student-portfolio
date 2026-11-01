@@ -1,11 +1,71 @@
+/* General page styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  line-height: 1.5;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f6f9;
+  color: #333;
 }
-header, nav, main {
-  padding: 16px;
+
+/* Header */
+header {
+  background-color: #1e293b;
+  color: white;
+  padding: 25px 40px;
+  text-align: center;
 }
+
+/* Navigation bar */
+nav {
+  background-color: #334155;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
 nav a {
-  margin-right: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #1e293b;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  main {
+    margin: 15px;
+    padding: 20px;
+  }
 }
