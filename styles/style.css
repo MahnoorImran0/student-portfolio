@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   line-height: 1.5;
 }
@@ -8,4 +8,10 @@ header, nav, main {
 }
 nav a {
   margin-right: 12px;
+} 
+/* This change is edited by Arslan Mustafa */
+@media (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
 }
