@@ -1,10 +1,6 @@
 /* General page styling */
 body {
-<<<<<<< HEAD
   font-family: Tahoma, sans-serif;
-=======
-  font-family: Verdana, sans-serif;
->>>>>>> c89d891 (git status)
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -30,23 +26,7 @@ nav {
 }
 
 nav a {
-<<<<<<< HEAD
   margin-right: 12px;
-<<<<<<< HEAD
-} 
-/* This change is edited by Aizaz Tariq */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-=======
-}
-
-/* This change is edited by Hasnaat Iftikhar */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
->>>>>>> c89d891 (git status)
-=======
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -74,6 +54,30 @@ h1, h2, h3 {
 }
 
 /* Responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  main {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+/* Existing responsive design */
 @media (max-width: 600px) {
   header {
     padding: 20px;
@@ -88,6 +92,5 @@ h1, h2, h3 {
   main {
     margin: 15px;
     padding: 20px;
->>>>>>> 54dba02 (style.css updated)
   }
 }
