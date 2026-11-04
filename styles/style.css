@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   font-family: Tahoma, sans-serif;
+=======
+  font-family: Verdana, sans-serif;
+>>>>>>> c89d891 (git status)
   margin: 0;
   line-height: 1.5;
 }
@@ -8,10 +12,19 @@ header, nav, main {
 }
 nav a {
   margin-right: 12px;
+<<<<<<< HEAD
 } 
 /* This change is edited by Aizaz Tariq */
 @media (max-width: 768px) {
   body {
     font-size: 16px;
+=======
+}
+
+/* This change is edited by Hasnaat Iftikhar */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+>>>>>>> c89d891 (git status)
   }
 }
