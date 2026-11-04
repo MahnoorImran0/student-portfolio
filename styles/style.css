@@ -1,10 +1,17 @@
 /* General page styling */
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "Times New Roman", Times, serif;
 =======
   font-family: Tahoma, sans-serif;
 >>>>>>> f5c9980228644cf516ff65c2a707f03cecfcc736
+=======
+  font-family: Tahoma, sans-serif;
+=======
+  font-family: Verdana, sans-serif;
+>>>>>>> c89d891 (git status)
+>>>>>>> origin/develop
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -94,11 +101,20 @@ h1, h2, h3 {
 }
 =======
   margin-right: 12px;
+<<<<<<< HEAD
 } 
 /* This change is edited by Aizaz Tariq */
 @media (max-width: 768px) {
   body {
     font-size: 16px;
+=======
+}
+
+/* This change is edited by Hasnaat Iftikhar */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+>>>>>>> c89d891 (git status)
   }
 }
 >>>>>>> f5c9980228644cf516ff65c2a707f03cecfcc736
