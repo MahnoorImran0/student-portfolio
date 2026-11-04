@@ -1,6 +1,10 @@
 /* General page styling */
 body {
+<<<<<<< HEAD
   font-family: "Times New Roman", Times, serif;
+=======
+  font-family: Tahoma, sans-serif;
+>>>>>>> f5c9980228644cf516ff65c2a707f03cecfcc736
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -26,6 +30,7 @@ nav {
 }
 
 nav a {
+<<<<<<< HEAD
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -87,3 +92,13 @@ h1, h2, h3 {
     padding: 15px;
   }
 }
+=======
+  margin-right: 12px;
+} 
+/* This change is edited by Aizaz Tariq */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+>>>>>>> f5c9980228644cf516ff65c2a707f03cecfcc736
